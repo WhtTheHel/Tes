@@ -1,13 +1,28 @@
-<nav class="navbar navbar-dark bg-dark">
-<div class="container">
-<a class="navbar-brand" href="index.php">Kopi Nusantara</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.php">
+      <span style="color: #d4a373;">☕</span> KOPI NUSANTARA
+    </a>
 
-<div>
-<a href="index.php" class="text-white me-3">Home</a>
-<a href="produk.php" class="text-white me-3">Produk</a>
-<a href="keranjang.php" class="text-white me-3">Keranjang</a>
-<a href="checkout.php" class="text-white">Checkout</a>
-</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-</div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-white me-2" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white me-2" href="produk.php">Produk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white me-2" href="keranjang.php">Keranjang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light btn-sm px-3" href="checkout.php">Checkout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
